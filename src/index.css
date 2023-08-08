@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Montserrat&family=Pacifico&family=Roboto:ital,wght@0,900;1,700;1,900&family=Sacramento&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* nav- bar */
+
+nav{
+    background-color:rgb(21,21,21);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+#logo a {
+  color: rgb(106,192,69);
+  font-size: 30px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+#searchbar input{
+    width:250px;
+    height: 30px;
+    padding-left: 20px;
+    border-radius: 20px 0px 0px 20px;
+    background-color:rgb(29,29,29); 
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom:none;
+    color:white;
+}
+
+#searchbar input:focus{
+  outline: none;
+}
+
+#searchbar button{
+    width: 50px;
+    height: 30px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: rgb(106,192,69);
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+#searchbar input:focus ~ .suggestion{
+  display: block;  
+}
+
+.suggestion{
+  display: none;
+  position: absolute;
+  left :618px;
+  width: 240px;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.888);
+  border-radius: 0px 0px 10px 10px;
+  z-index: 10000;
+}
+
+.suggestion:hover{
+  display: block;
+}
+
+.suggestion p{
+  font-size: 18px;
+  padding-left: 10px;
+  margin: 5px 0px;
+  transition: 0.3s;
+  color: rgb(15,15,15);
+  font-weight: 400;
+}
+
+.suggestion p:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+#nav-links a{
+    margin-left: 25px;
+    text-decoration: none;
+    color: rgb(203,238,238);
+    font-size: 18px;
+}
+
+#nav-links i{
+    font-size: 25px;
+}
+
+
+/* home css */
+
+
+  .home{
+    padding: 10px 70px;
+    background-color: rgb(15,15,15);
+  }
+
+  .home>h1{
+    position: sticky;
+    top: 60px;
+    z-index: 10;
+    color: rgb(106,192,69);
+    font-size: 35px;
+    margin: 20px 0px;
+  }
+
+  .cars-details{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    overflow: scroll;
+  }
+
+  .cars-details::-webkit-scrollbar{
+    display: none;
+  }
+
+  .car{
+    width: 220px;
+    height: auto;
+    margin: 3px 10px;
+    padding: 10px;
+    border-radius: 7px;
+    transition: 0.3s;
+    position: relative;
+  }
+
+  .car a{
+    text-decoration: none;
+  }
+
+  .car:hover{
+    transform: scale(1.05);
+  }
+
+  .car h1{
+    font-size: 20px;
+  color: white;
+  }
+
+  .car p{
+    color: white;
+    font-size: 20px;
+  }
+
+  .car img{
+    object-fit: scale-down;
+    width: 200px;
+    height: 250px;
+    border-radius: 7px;
+  }
+
+  #price{
+    color: red;
+  }
+  
+  .car i{
+    font-size: 25px;
+    color: red;
+    position: absolute;
+    top: 220px;
+    right: 10px;
+    animation: beat 0.5s linear;
+  }
+  
+  @keyframes beat {
+    0%{transform: scale(0.6);}
+    70%{transform: scale(1.4);}
+    100%{transform: scale(1);}
+  }
+
+
+
+  /* loader-css */
+
+  #loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+
+  /* SignUp */
+
+
+
+.signup, .login{
+  text-align: center;
+}
+
+.signup h1, .login h1{
+  margin: 20px auto;
+}
+
+.signup hr, .login hr{
+ width: 80%;
+ margin: 10px auto;
+ border: solid #009e6f 1px;
+}
+
+.signup form, .login form{
+  background-color: #009e6f;
+  width: 350px;
+  height: auto;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 7px;
+}
+
+.signup form input, .login form input{
+  display: block;
+  width: 90%;
+  height: 35px;
+  margin: 8px auto;
+  padding-left: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.signup form input[type="submit"], .login form input[type="submit"]
+{
+  width: 60%;
+  margin: 25px auto 20px auto;
+}
+
+.signup form input[type="submit"]:active ,
+.login form input[type="submit"]:active
+{
+    background-color: black;
+    color: white;
+}
+
+
+
+/* cardetails */
+
+
+
+#cardetails__container{
+  max-width: 1570px;
+  min-height: calc(100vh - 100px);
+  background-color:  rgb(15,15,15); 
+}
+
+.car-container{
+  margin: 0px 80px;
+  padding: 20px 0px;
+  display: flex;
+}
+
+.car-container img{
+  width: 800px;
+  height: 550px;
+  border-radius: 10px;
+}
+
+#box2-container{
+  width: 800px;
+  height: 550px;
+  margin: 0px 50px;
+  padding: 15px;
+  border-radius: 10px;
+   color:rgb(106,192,69);
+}
+
+#box2-container h1{
+  font-size: 2rem;
+  padding-bottom: 5px;
+}
+
+#box2-container p{
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
+#box2-container span{
+  color:white;
+  margin-right: 45px;
+}
+
+#box2-container h4{
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+#box2-container:last-child iframe{
+  position: relative;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#box2-container article{
+  display: flex;
+  margin: 0px 100px;
+  gap: 100px;
+}
+
+#box2-container article input{
+  font-size: 18px;
+  width: 80px;
+  height: 40px;
+}
+
+#box2-container article input:hover{
+  background:yellow;
+  color:black;
+  transform: scale(1.1);
+  border-radius: 5px;
+}
+
+
+/* add-car */
+
+
+.add-car{
+  text-align: center;           
+}
+
+.add-car h1{
+  margin: 20px auto;
+}
+
+.add-car form{
+  background-color:rgb(21,21,21);
+  width: 450px;
+  height: auto;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 7px;
+}
+
+.add-car form input {
+  display: block;
+  width: 90%;
+  height: 35px;
+  margin: 8px auto;
+  padding-left: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.add-car form input[type="submit"] 
+{
+  width: 60%;
+  margin: 25px auto 20px auto;
+  background-color: rgb(106,192,69);
+}
+
+.add-car input[type="submit"]:active 
+{
+    background-color:white;
+    color:black;
+}
+
+
+/* profile */
+
+
+#cover{
+  width: 100%;
+  height: 350px;
+}
+
+#profilePic{
+  width: 150px;
+  height: 150px;
+  margin-left: 200px;
+  margin-top: -70px;
+  border: solid 8px white;
+  border-radius: 50%;
+}
+
+.profile h1{
+  margin-left: 200px;
+}
+
+.btns{
+  margin: 20px 0px 20px 200px;
+}
+
+.profile button{
+  display: inline-block;
+  background-color: #009e6f;
+  margin: 20px 10px;
+  padding: 8px 20px;
+  border:  solid #009e6f 1px;
+  border-radius: 3px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.profile button:hover{
+  background-color:white ;
+  color: #009e6f;
+}
+
+
+/* update-profile */
+
+
+.update-profile input{
+  display: block;
+  width: 200px;
+  height: 30px;
+  margin: 8px 2px;
+  padding-left: 10px;
+  border: solid 1px #009e6f;
+}
+
+.update-profile input[type="submit"]{
+  padding-left: 0px;
+  background-color: #009e6f;
+  color: white;
+}
+
+.update-password input{
+  display: block;
+  width: 200px;
+  height: 30px;
+  margin: 8px 2px;
+  padding-left: 10px;
+  border: solid 1px #009e6f;
+}
+
+.update-password input[type="submit"]{
+  padding-left: 0px;
+  background-color: #009e6f;
+  color: white;
+}
+
+
+/* similar cars */
+
+
+#similar-cars{
+  background-color: rgb(15,15,15);
+}
+
+#change{
+  color:rgb(106,192,69);
+}
+
+
+/* search single  */
+
+.search-container{
+  background-color: rgb(15,15,15);
+  
+}
+
+
+/* whishlist */
+.fav-cars{
+  background-color: rgb(15,15,15);
+  padding: 20px 80px;
+}
+
+.fav-cars h1{
+  color: #009e6f;
+}
+
+.fav-cars h2{
+  color: tomato;
+}

@@ -1,0 +1,325 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "model": "Rolls-Royce Wraith",
+      "brand": "Rolls-Royce",
+      "year": 2023,
+      "engine": "6.6L Twin-Turbocharged V12",
+      "horsepower": 624,
+      "transmission": "Automatic",
+      "fuel_type": "Petrol",
+      "price": "$330,000",
+      "features": [
+        "Starlight Headliner",
+        "Coach doors with power closing",
+        "Bespoke audio system",
+        "Night Vision and Pedestrian Warning"
+      ],
+      "posturl": "https://www.carid.com/images/inspiration/rolls-royce/wraith/16/1.jpg",
+      "carVideoClip": "https://www.youtube.com/embed/ubz5kIDHCQQ",
+      "bannerurl":"https://new-tmp-website-2019-s3.s3.ap-southeast-1.amazonaws.com/uploads/vehicles/6/001_6_1577948469259_000.png"
+    },
+    {
+      "model": "Kia EV6",
+      "brand": "Kia",
+      "year": 2023,
+      "engine": "Dual Electric Motors",
+      "horsepower": 313,
+      "transmission": "Automatic",
+      "fuel_type": "Electric",
+      "price": "$45,000",
+      "features": [
+        "Ultra-fast charging",
+        "  Augmented Reality Head-Up Display",
+        "  Blind-Spot View Monitor",
+        "  Vehicle-to-Load (V2L) function"
+      ],
+      "posturl": "https://images.firstpost.com/wp-content/uploads/2021/03/kia-ev6-makes-world-premiere-has-range-of-over-500-kilometres.jpg",
+      "carVideoClip": "https://www.youtube.com/embed/0z6zcR8UnxA",
+      "id": 2,
+      "bannerurl":"https://toddsofcampsie.com/wp-content/uploads/2021/08/KD001-0763_Q2_2021_Kia_Dealer_Web_Banners_EV_Roadshow_1200x900.jpg"
+    },
+    {
+      "id": 3,
+      "model": "Mahindra Thar",
+      "brand": "Mahindra",
+      "year": 2023,
+      "engine": "2.2L mHawk Diesel",
+      "horsepower": 130,
+      "transmission": "Manual",
+      "fuel_type": "Diesel",
+      "price": "$28,000",
+      "features": [
+        "4x4 with shift-on-the-fly",
+        "Removable hardtop",
+        "Adventure-ready design",
+        "6-seater option"
+      ],
+      "posturl": "https://c.ndtvimg.com/2020-10/cak8ic6g_mahindra-thar-accessories-explained-_625x300_10_October_20.jpg",
+      "carVideoClip": "https://www.youtube.com/embed/fjyKx18S5SU",
+      "bannerurl":"https://i0.wp.com/gomechanic.in/blog/wp-content/uploads/2020/08/2020-Mahindra-Thar-Ultimate-Offroader.jpg?w=1920&ssl=1"
+    },
+    {
+      "id": 4,
+      "model": "Kia Sportage",
+      "brand": "Kia",
+      "year": 2023,
+      "engine": "2.4L Inline-4",
+      "horsepower": 181,
+      "transmission": "Automatic",
+      "fuel_type": "Petrol",
+      "price": "$25,500",
+      "features": [
+        "10.25-inch touchscreen infotainment",
+        "Wireless phone charger",
+        "Blind-Spot Collision Warning",
+        "Smart Power Liftgate"
+      ],
+      "posturl": "https://www.carscoops.com/wp-content/uploads/2016/02/6203899f-2016-kiasportage-crdi-68.jpg",
+      "carVideoClip": "https://www.youtube.com/embed/QL7RlXJozy4",
+      "bannerurl":"https://webportal.motuscorp.co.za/api/assets/kia/8c9a248c-16c6-4b34-8e2b-f798ab17602c"
+    },
+    {
+      "id": 5,
+      "model": "Rolls-Royce Cullinan",
+      "brand": "Rolls-Royce",
+      "year": 2023,
+      "engine": "6.75L Twin-Turbocharged V12",
+      "horsepower": 563,
+      "transmission": "Automatic",
+      "fuel_type": "Petrol",
+      "price": "$400,000",
+      "features": [
+        "Viewing suite - rear seats",
+        "Off-road capability",
+        "Bespoke interior options",
+        "High-resolution touchscreen display"
+      ],
+      "posturl": "https://static.bangkokpost.com/media/content/20191018/3372909.jpg",
+      "carVideoClip": "https://www.youtube.com/embed/8GaBm26mUMM",
+      "bannerurl":"https://rolls-roycemotorcarsseattle.com/wp-content/uploads/2018/02/Cullinan-landing-banner.jpg"
+    },
+    {
+      "id": 6,
+      "model": "Mahindra XUV700",
+      "brand": "Mahindra",
+      "year": 2023,
+      "engine": "2.2L mHawk Diesel / 2.0L Turbo Petrol",
+      "horsepower": 185,
+      "transmission": "Manual / Automatic",
+      "fuel_type": "Diesel",
+      "price": "$35,000",
+      "features": [
+        "Adrenox AI technology",
+        "Dual-zone automatic climate control",
+        "Advanced driver-assistance systems",
+        "Panoramic sunroof"
+      ],
+      "posturl": "https://im.rediff.com/money/2021/aug/18xuv700-1.jpg",
+      "carVideoClip": "https://www.youtube.com/embed/_osfDB5LxUA",
+      "bannerurl":"https://secunderabad.automotivemahindra.com/wp-content/uploads/2021/08/xuv700-home-page-banner-2.jpg"
+    },
+    {
+      "id": 7,
+      "model": "Kia Telluride",
+      "brand": "Kia",
+      "year": 2023,
+      "engine": "3.8L V6",
+      "horsepower": 291,
+      "transmission": "Automatic",
+      "fuel_type": "Petrol",
+      "price": "$38,000",
+      "features": [
+        "8-passenger seating",
+        "Harman Kardon audio system",
+        "Smart Cruise Control",
+        "UVO Link Infotainment"
+      ],
+      "posturl": "https://www.automobilemag.com/uploads/sites/11/2019/03/2020-Kia-Telluride-22.jpg",
+      "carVideoClip": "https://www.youtube.com/embed/dkba-8sp_rY",
+      "bannerurl":"https://images.jazelc.com/uploads/kellygrimsleykia/KG-Kia-telluride-banner.jpg"
+    },
+    {
+      "id": 8,
+      "model": "Rolls-Royce Ghost",
+      "brand": "Rolls-Royce",
+      "year": 2023,
+      "engine": "6.75L Twin-Turbocharged V12",
+      "horsepower": 563,
+      "transmission": "Automatic",
+      "fuel_type": "Petrol",
+      "price": "$335,000",
+      "features": [
+        "Starlight Headliner",
+        "Self-closing coach doors",
+        "Lounge seat configuration",
+        "Immersive sound system"
+      ],
+      "posturl": "https://cdn.bmwblog.com/wp-content/uploads/2020/09/2021-rolls-royce-ghost-30.jpg",
+      "carVideoClip": "https://www.youtube.com/embed/_JP0fl3S1uU",
+      "bannerurl":"https://cdn.wallpapersafari.com/5/60/3ejstz.jpg"
+    },
+    {
+      "id": 9,
+      "model": "Mahindra Scorpio",
+      "brand": "Mahindra",
+      "year": 2023,
+      "engine": "2.0L mStallion Turbo Petrol",
+      "horsepower": 150,
+      "transmission": "Manual / Automatic",
+      "fuel_type": "Diesel",
+      "price": "$25,500",
+      "features": [
+        "10-inch touchscreen infotainment",
+        "Android Auto & Apple CarPlay",
+        "Cruise control",
+        "Reverse parking camera"
+      ],
+      "posturl": "https://stat.overdrive.in/wp-content/odgallery/2020/04/56774_Mahindra-Scorpio_2020_001.jpg",
+      "carVideoClip": "https://www.youtube.com/embed/HvZHXclEj-Q",
+      "bannerurl":"http://images.dealersites.cardekho.com/338/banner/scorpio-1813.jpg"
+    },
+    {
+      "id": 10,
+      "model": "Rolls-Royce Phantom",
+      "brand": "Rolls-Royce",
+      "year": 2023,
+      "engine": "6.75L Twin-Turbocharged V12",
+      "horsepower": 563,
+      "transmission": "Automatic",
+      "fuel_type": "Petrol",
+      "price": "$480,000",
+      "features": [
+        "Gallery - custom artwork",
+        "Illuminated Spirit of Ecstasy",
+        "Rear-seat entertainment",
+        "Sculpted roof lining"
+      ],
+      "posturl": "https://pixelz.cc/wp-content/uploads/2018/12/rolls-royce-phantom-ewb-uhd-4k-wallpaper.jpg",
+      "carVideoClip": "https://www.youtube.com/embed/AsgXNQ0a_a8",
+      "bannerurl":"http://gamerfront.net/wp-content/uploads/2010/07/phantom-banner.jpg"
+    },
+    {
+      "id": 11,
+      "model": "Kia Seltos",
+      "brand": "Kia",
+      "year": 2023,
+      "engine": "1.5L Turbocharged Inline-4",
+      "horsepower": 156,
+      "transmission": "Automatic",
+      "fuel_type": "Petrol",
+      "price": "$22,000",
+      "features": [
+        "8-inch touchscreen infotainment",
+        "Apple CarPlay & Android Auto",
+        "Smart Key with push-button start",
+        "Lane Keeping Assist"
+      ],
+      "posturl": "https://blog.gaadikey.com/wp-content/uploads/2019/08/1-Kia-Seltos-Orange-1024x683.jpg",
+      "carVideoClip": "https://www.youtube.com/embed/CktZ-sfJJfE",
+      "bannerurl":"https://www.ppskia.in/wp-content/uploads/2019/07/automotive-kia-home-banner.jpg"
+    },
+    {
+      "id": 12,
+      "model": "Mahindra XUV300",
+      "brand": "Mahindra",
+      "year": 2023,
+      "engine": "1.2L Turbocharged Petrol",
+      "horsepower": 108,
+      "transmission": "Manual / Automatic",
+      "fuel_type": " Diesel",
+      "price": "$20,000",
+      "features": [
+        "7-inch touchscreen infotainment",
+        "Dual-zone climate control",
+        "Front and rear parking sensors",
+        "7 airbags"
+      ],
+      "posturl": "https://images.firstpost.com/wp-content/uploads/2021/02/mahindra-XUV300-1a.jpg",
+      "carVideoClip": "https://www.youtube.com/embed/gabwgoYfDP0",
+      "bannerurl":"https://ppsmahindra.com/wp-content/uploads/2020/04/xuv300_banner.jpg"
+    },
+    {
+      "id":13,
+      "model": "Audi A4",
+      "brand": "Audi",
+      "year": 2023,
+      "engine": "2.0L Turbocharged Inline-4",
+      "horsepower": 248,
+      "transmission": "Automatic",
+      "fuel_type": "Petrol",
+      "price": "$40,000",
+      "features": [
+        "Virtual cockpit",
+        "Bang & Olufsen sound system",
+        "Audi pre sense safety",
+        "Quattro all-wheel drive"
+      ],
+      "posturl": "http://www.carsbase.com/photo/Audi-A4_mp4_pic_47867.jpg",
+      "carVideoClip": "https://www.youtube.com/embed/SEbzLLCD1_w",
+      "bannerurl":"https://i.pinimg.com/736x/df/5a/18/df5a18018574f35c419ed0727844726e--banner-designs.jpg"
+    },
+    {
+      "id":14,
+      "model": "Tata Harrier",
+      "brand": "Tata",
+      "year": 2023,
+      "engine": "2.0L Turbocharged Diesel",
+      "horsepower": 168,
+      "transmission": "Manual / Automatic",
+      "fuel_type": "Diesel",
+      "price": "$30,000",
+      "features": [
+        "Panoramic sunroof",
+        "9-speaker JBL audio system",
+        "Terrain Response Modes",
+        "Floating island touchscreen infotainment"
+      ],
+      "posturl":"http://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=http:%2f%2fcdni.autocarindia.com%2fReviews%2f20181207123710_Tata-Harrier-front-static-1.jpg&c=0",
+      "carVideoClip":"https://www.youtube.com/embed/W16_KYJ0dZE",
+      "bannerurl":"https://gaadiwaadi.com/wp-content/uploads/2018/07/TATA-HARRIER.jpg"
+    },
+    {
+      "id":15,
+      "model": "BMW X3",
+      "brand": "BMW",
+      "year": 2023,
+      "engine": "2.0L TwinPower Turbo Inline-4",
+      "horsepower": 248,
+      "transmission": "Automatic",
+      "fuel_type": "Diesel",
+      "price": "$45,000",
+      "features": [
+        "Panoramic moonroof",
+        "BMW ConnectedDrive Services",
+        "Active Protection System",
+        "Driving Dynamics Control"
+      ],
+      "posturl":"https://www.gannett-cdn.com/-mm-/c43c372f6874b971744c307fb1f110be369bfd07/c=0-180-3543-2182/local/-/media/2018/02/17/Bergen/NorthJersey/636544818902505374-012118-D-2018-BMW-X3.jpg?width=3200&height=1809&fit=crop&format=pjpg&auto=webp",
+      "carVideoClip":"https://www.youtube.com/embed/KLY-sALhkhI",
+      "bannerurl":"https://d29ergcf66r98z.cloudfront.net/wp-content/uploads/2021/04/19062032/x3-banner.jpg"
+    },
+   
+    {
+      "id":16,
+      "model": "Toyota RAV4",
+      "brand": "Toyota",
+      "year": 2023,
+      "engine": "2.5L Inline-4",
+      "horsepower": 203,
+      "transmission": "Automatic",
+      "fuel_type": "Diesel",
+      "price": "$28,000",
+      "features": [
+        "Toyota Safety Sense 2.0",
+        "8-inch touchscreen infotainment",
+        "Apple CarPlay & Android Auto",
+        "All-Wheel Drive"
+      ],
+      "posturl":"https://www.motortrend.com/uploads/sites/5/2015/11/2016-Toyota-Rav4-Hybrid-Limited-front-three-quarter-in-motion-04.jpg",
+      "carVideoClip":"https://www.youtube.com/embed/21zpTch15LI",
+      "bannerurl":"https://s1.paultan.org/image/2013/06/Rolls-Royce_Wraith_launch_003.jpg"
+    }
+  ]
+}

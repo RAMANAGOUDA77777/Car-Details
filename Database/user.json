@@ -1,0 +1,32 @@
+{
+  "user": [
+    {
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "phone_number": "5550254863",
+      "password": "ram@1234",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "janesmith@gmail.com",
+      "password": "jane!1234",
+      "phone_number": "6666667890"
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "email": "bobjohnson@yahoo.com",
+      "password": "boob#1234",
+      "phone_number": "7777774567"
+    },
+    {
+      "id": 4,
+      "name": "Alice Williams",
+      "email": "alicewilliamss@hotmail.com",
+      "password": "alice$1234",
+      "phone_number": "8888881234"
+    }
+  ]
+}
